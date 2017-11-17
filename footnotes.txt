@@ -1,0 +1,111 @@
+- 13:05 - 13:20
+- 1:05 - 1:20
+
+- in Github and in a master branch. Include the URL 
+link when submitting to the canvas page
+
+< ------- Final ------- >
+1.) Login & Registration 	(Goyo)
+2.) View User Details		(Austin)
+3.) Create Review		(Marvin)
+4.) Add Comment			(Goyo)
+5.) View Game Review Page 	(Austin)
+6.) Add Game (Admin)		(Marvin)
+7.) Flag/Remove Comment [Admin]- (Migz)
+8.) Report User 		(Migz)
+9.) Ban User [Admin]		(Migz)
+< ------- ------- ------- >
+
+
+* Minimum Specifications * :
+	- you may use back-end frameworks
+	- two features related to communit interaction:
+		-> during the demo, highlight two COMPLEX or INNOVATIVE functionalities
+	- straightforward accoutns creation/registration feature
+	- login/logout
+	- admin login feature / system dashboard: 
+		-> must allow admin to modify at least one viewable element
+		in the web app
+
+		-> (i.e. option to login as moderator to modify images or add new
+		   products)
+
+	- document about implementation
+		- highlight back-end & front-end architecture
+		- highlight community interaction implementation
+
+	- cross-platform support for 1 mobile device and 1 tablet
+ 
+* Submission instructions *:
+	- upload source code in Github and Master Branch
+		- Include URL when submitting in canvas
+
+	- Submit source code in a ZIP file and upload via Canvas
+		- only 1 member is required ti upload
+
+	- Include a READ.ME file for running/installation of web app
+		- also include team name in file
+		- and names of members
+	
+
+
+
+
+< ******* ******* Errors ******* ******* >
+- icons of categories
+- Mijares error sa stars
+
+
+< ******* ******* Notes ******* ******* >
+
+- login input 'Username' @line 58
+- login input 'Password' @line 64
+- login input 'Log in' @line 78
+
+- form beginning @line 52
+- begun PHP at @line 83 
+
+< ******* ******* ******* ******* ******* >
+
+* Log in:
+	- [Semi-RESOLVED] check 'username' exists
+	- check 'username' proper upper-casing/lower-casing
+	
+	- [Semi-RESOLVED] check if password is correct
+	- check password proper upper-casing/lower-casing
+
+	- check user Status if Banned
+
+	- check user Status if Suspended
+	- show days left before end of suspension
+
+
+* Register:
+	- check if valid username
+	- [Semi-RESOLVED] check if username already exists
+		- check 'username' proper upper-casing/lower-casing
+	- 
+
+	- [RESOLVED] check valid password length
+	- [RESOLVED] check if password has SPACE/TAB
+	- check if password has special characters
+	- turn into PASSSWORD field
+
+	- [RESOLVED] check if confirm-pass == password 
+	- check if equal upper-casing/lower-casing
+	- turn into PASSSWORD field
+
+	- check if valid/exists email
+	- send to email for confirmation
+	- 
+
+	- send me updates through my email
+
+* Add comment:
+	- insert comment into db
+	- show comment (reload)
+
+	- put datetime in DB
+
+
+
